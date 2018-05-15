@@ -13,7 +13,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    /** Called when the user taps the Send button */
+    /** Called when the user taps the Send button
+     * the following method was written when following the android tutorial
+     * found on https://developer.android.com/training/basics/firstapp/ */
     public void sendMessage(View view) {
         //Gets user input
         EditText editText = (EditText) findViewById(R.id.editText);
